@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSources>
+	<!-- 定义MySQL数据源 -->
+	<dataSource id="mysql" class="xxx.xxx.xx">
+		<property name="driverClassName">com.mysql.jdbc.Driver</property>
+		<property name="url">jdbc:mysql://127.0.0.1:3306/userdb</property>
+		<property name="username">root</property>
+		<property name="password">123</property>
+	</dataSource>
+	
+	<!-- 定义Oracle的数据源 -->
+	<dataSource id="oracle" class="xxx.xxx.xx">
+		<property name="driverClassName">com.oracle.jdbc.OracleDriver</property>
+		<property name="url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>
+		<property name="username">scott</property>
+		<property name="password">tiger</property>
+	</dataSource>
+</dataSources>
