@@ -25,7 +25,7 @@ public class SaxParserDemo {
 		try {
 			// 创建解析器
 			SAXParser saxParser = factory.newSAXParser();
-			// 吧XML转换为输入流操作
+			// 把XML转换为输入流操作
 			InputStream inputStream = DOMParser.class.getClassLoader().getResourceAsStream("datasource.xml");
 			saxParser.parse(inputStream, new DefaultHandler() {
 				//解析开始标题文档

@@ -12,7 +12,7 @@
 	<dataSource id="oracle" class="xxx.xxx.xx">
 		<property name="driverClassName">com.oracle.jdbc.OracleDriver</property>
 		<property name="url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>
-		<property name="username">scott</property>
+		<property name="username">love</property>
 		<property name="password">tiger</property>
 	</dataSource>
 </dataSources>
